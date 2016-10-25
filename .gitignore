@@ -1,0 +1,25 @@
+# IDEs
+.project
+.pydevproject
+.idea
+.vscode
+.settings
+
+*~
+\#*
+
+dist/
+
+*.sqlite
+
+node_modules/
+npm-debug.log
+coverage/
+.coverage
+.cache
+
+.sass-lint.yml
+.prospector.yml
+.coveragerc
+shippable/
+local_*.js

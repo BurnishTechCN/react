@@ -1,0 +1,1 @@
+export const VALIDATE_SMS_PHONE = 'VALIDATE_SMS_PHONE';

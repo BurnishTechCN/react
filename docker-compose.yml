@@ -1,0 +1,12 @@
+owl_client:
+  image: docker.burnish.cn/owl-client:latest
+  command: npm start
+  volumes:
+    - ./src:/code/src
+    - ./webpack:/code/webpack
+    - ./tests:/code/tests
+    - ./package.json:/code/package.json
+    - ./.babelrc:/code/.babelrc
+    - ./.eslintrc:/code/.eslintrc
+  ports:
+    - "9000:9000"
