@@ -1,5 +1,5 @@
 owl_client:
-  image: docker.burnish.cn/owl-client:latest
+  image: docker.burnish.cn/react:latest
   command: npm start
   volumes:
     - ./src:/code/src
