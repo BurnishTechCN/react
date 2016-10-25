@@ -1,6 +1,6 @@
-# 监控系统前端
+# react 脚手架
 
-## 运行前端
+## 运行
 
 * docker 方式（推荐）
 
@@ -17,15 +17,9 @@
 
 ## 运行 api
 
-* `git clone git@github.com:BurnishCN/owl.git`
-* `docker-compose up`
+运行相应后端 api
 
 
 ## 打包
 
 `npm build`
-
-
-## 单元测试
-
-`npm run coverage`
